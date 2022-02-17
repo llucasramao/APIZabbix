@@ -17,7 +17,7 @@ function sendMessage(servidor, erro){
     var number = '120363041666717455'
     var message = `Servidor ${servidor} parrou de funcionar!\n Erro: ${erro}`
     var session = 'Lucas'
-    var sessionkey = '$2b$10$6GvYDpW3cc7V.jg14PbqZ.ORSzwAG4OSoUxJ5hqDqNleTmjfN6mmG'
+    var sessionkey = ''
     var isGroup = true
 
 
