@@ -17,7 +17,7 @@ function sendMessage(servidor, erro){
     var number = '120363041666717455'
     var message = `Servidor ${servidor} parrou de funcionar!\n Erro: ${erro}`
     var session = 'Lucas'
-    var sessionkey = ''
+    var sessionkey = '$2b$10$TJFTjbH1r3.W7i2unTV4XufaeYNvxoBaPHsbKTdrz3K6qyFW.J7UK'
     var isGroup = true
 
 
@@ -47,7 +47,7 @@ function sendMessage(servidor, erro){
     }
     })
     .catch(function (error) {
-    console.log('Erro: catch-function-error');
+    console.log('Erro: catch-function-error', error);
     });
 
 }
