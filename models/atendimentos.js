@@ -51,10 +51,9 @@ function sendMessage(message) {
 
 }
 
-function sendButton (servidor, erro){
+function sendButton (message){
     var host = 'http://api.spacewebso.com.br:2121/api'
     var number = '120363041666717455'
-    var message = `Servidor ${servidor} parrou de funcionar!\n Erro: ${erro}`
     var session = 'botSpaceWeb'
     var sessionkey = '$2b$10$o8KptoEXotQi1OZM9TRlyuYY4IpoRnBSoakpxbW3CpPCgvGzCPNoq'
     var isGroup = true
