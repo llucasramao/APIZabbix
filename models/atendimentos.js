@@ -2,8 +2,7 @@ const axios = require('axios');
 
 class tipes {
     down(atendimento) {
-        var servidor = atendimento.servidor
-        var erro = atendimento.erro
+        var message = atendimento.message
         //sendMessage(servidor, erro)
         sendButton(servidor, erro)
     }
@@ -13,10 +12,9 @@ module.exports = new tipes
 
 
 
-function sendMessage(servidor, erro) {
+function sendMessage(message) {
     var host = 'http://api.spacewebso.com.br:2121/api'
     var number = '120363041666717455'
-    var message = `Servidor ${servidor} parrou de funcionar!\n Erro: ${erro}`
     var session = 'botSpaceWeb'
     var sessionkey = '$2b$10$XRZ0kKowwUCEHV77nVuscOSWuUog4mIg1FnSJ4k4TBKbX3quA6XjK'
     var isGroup = true
