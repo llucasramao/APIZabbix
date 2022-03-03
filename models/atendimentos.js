@@ -17,8 +17,8 @@ function sendMessage(servidor, erro) {
     var host = 'http://api.spacewebso.com.br:2121/api'
     var number = '120363041666717455'
     var message = `Servidor ${servidor} parrou de funcionar!\n Erro: ${erro}`
-    var session = 'botSpaceWebSO'
-    var sessionkey = '$2b$10$u_3.V2BhhYsWZ3LRndnNA.H0zKW9iGm0.5VbLuQn8gVioD4Sm5j6a'
+    var session = 'botSpaceWeb'
+    var sessionkey = '$2b$10$XRZ0kKowwUCEHV77nVuscOSWuUog4mIg1FnSJ4k4TBKbX3quA6XjK'
     var isGroup = true
 
 
